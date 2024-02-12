@@ -1,0 +1,9 @@
+.task-a{
+    text-decoration: none;
+    color: black !important;
+    padding: 7px 0px;
+}
+.task-a:hover{
+    text-decoration: none;
+    color: white !important;
+}
