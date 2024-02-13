@@ -18,11 +18,17 @@ const StyledPara = styled.p`
  margin-top: 20px;
 `
 
+const StyledAboutImage = styled.img`
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+`
+
 const About = () => {
     return (
         <div>
             <h2>
-                Lauren Ahn
+                lauren ahn
             </h2>
             <StyledPara>
                 I'm a biz ops manager based in Los Angeles with 5+ years in project management, program development, and sales.
@@ -43,10 +49,13 @@ const About = () => {
             <StyledPara>
                 When I’m away from work, I’m re-grounding myself with Korean culture, community gardening, friendships, family, and most importantly, my beloved emotional support animal, Cassius-Carti.
             </StyledPara>
+            <div>
+                <StyledAboutImage src="./about.JPG"></StyledAboutImage>
+            </div>
             <StyledPara>
                 If you like my vibe, hit my line:
             </StyledPara>
-            <StyledUl >
+            <StyledUl style={{marginTop:-10}}>
                 <Styledli>
                     <Styledh5>
                     <a href="mailto:willtmatteson@gmail.com" target="_blank" rel="noopener noreferrer">email: laurenahn@berkeley.edu</a>

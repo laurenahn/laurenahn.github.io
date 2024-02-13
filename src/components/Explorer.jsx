@@ -48,25 +48,25 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
             >
                 {/* Work Items  */}
                 <FilesWrapper>
-                    <StyledItem onClick={() => openNotepad("Polygon")}>
+                    <StyledItem onClick={() => openNotepad("Spotify")}>
                         {/* You can change this ny replacing the file Item1.png in public folder with any logo image of same size */}
                         <img src="./spotifylogo.png" style={{ maxWidth: "50px" }} alt="" />
-                        <StyledSpan>Spotify.txt</StyledSpan>
+                        <StyledSpan>Spotify</StyledSpan>
                     </StyledItem>
                     <StyledItem onClick={() => openNotepad("WeWork")}>
                         {/* You can change this ny replacing the file Riot.png in public folder with any logo image of same size */}
                         <img src="./weworklogo.png" style={{ maxWidth: "50px" }} alt="" />
-                        <StyledSpan>WeWork.txt</StyledSpan>
+                        <StyledSpan>WeWork</StyledSpan>
                     </StyledItem>
-                    <StyledItem onClick={() => openNotepad("UCBerkeley")}>
+                    <StyledItem onClick={() => openNotepad("Education")}>
                         {/* You can change this ny replacing the file Bain.png in public folder with any logo image of same size */}
                         <img src="./ucberkeleylogo.png" style={{ maxWidth: "50px" }} alt="" />
-                        <StyledSpan>UCBerkeley.txt</StyledSpan>
+                        <StyledSpan>Education</StyledSpan>
                     </StyledItem>
-                    <StyledItem onClick={() => openNotepad("NASA")}>
+                    <StyledItem onClick={() => openNotepad("Lauren Ahn")}>
                         {/* You can change this ny replacing the file NASA.png in public folder with any logo image of same size */}
                         <img src="./laurensignature.png" style={{ maxWidth: "50px" }} alt="" />
-                        <StyledSpan>PersonalLogo.txt</StyledSpan>
+                        <StyledSpan>Me</StyledSpan>
                     </StyledItem>
                 </FilesWrapper>
             </Frame>

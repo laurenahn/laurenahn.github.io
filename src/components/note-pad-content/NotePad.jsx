@@ -2,10 +2,9 @@ import { Modal, Frame } from '@react95/core'
 import { Notepad as NotepadIcon } from '@react95/icons';
 import PropTypes from "prop-types"
 import About from '../about/About';
-import Polygon from '../work-items/Polygon';
-import Riot from '../work-items/Riot';
-import Bain from '../work-items/Bain';
-import NASA from '../work-items/NASA';
+import Spotify from '../work-items/Spotify';
+import WeWork from '../work-items/WeWork';
+import LaurenAhn from '../work-items/LaurenAhn';
 import Education from '../work-items/Education';
 import Skills from '../skills/Skills';
 import Misc from '../misc/Misc';
@@ -63,16 +62,14 @@ function ContentFactory({ selectedItem }) {
     switch (selectedItem) {
         case 'About':
             return <About />
-        case 'Polygon':
-            return <Polygon />
-        case 'Riot':
-            return <Riot />
-        case 'Bain':
-            return <Bain />
-        case 'NASA':
-            return <NASA />
+        case 'Spotify':
+            return <Spotify />
+        case 'WeWork':
+            return <WeWork />
         case 'Education':
             return <Education />
+        case 'Lauren Ahn':
+            return <LaurenAhn />
         case 'Skills':
             return <Skills />
         case 'Misc':
