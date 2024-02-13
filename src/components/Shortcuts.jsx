@@ -22,6 +22,7 @@ function Shortcuts({ openNotepad, openExlorer, isMobile }) {
          display: flex;
          flex-direction: column;
          gap: 8px;
+         color: white;
       `;
 
     return (

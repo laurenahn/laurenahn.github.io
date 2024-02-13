@@ -63,7 +63,7 @@ function Explorer({ closeExplorer, isMobile, openNotepad }) {
                         <img src="./ucberkeleylogo.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Education</StyledSpan>
                     </StyledItem>
-                    <StyledItem onClick={() => openNotepad("Lauren Ahn")}>
+                    <StyledItem onClick={() => openNotepad("lauren ahn")}>
                         {/* You can change this ny replacing the file NASA.png in public folder with any logo image of same size */}
                         <img src="./laurensignature.png" style={{ maxWidth: "50px" }} alt="" />
                         <StyledSpan>Me</StyledSpan>

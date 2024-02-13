@@ -71,9 +71,6 @@ const About = () => {
                     <a href="https://www.instagram.com/koreanbutch/" target="_blank" rel="noopener noreferrer">@koreanbutch</a> on IG if you want to lurk
                     </Styledh5>
                 </Styledli>
-                <Styledli>
-                    <Styledh5>resume:(still working on it, just email me :))</Styledh5>
-                </Styledli>
             </StyledUl>
         </div>
     )

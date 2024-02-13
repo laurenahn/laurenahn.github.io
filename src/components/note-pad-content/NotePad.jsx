@@ -68,7 +68,7 @@ function ContentFactory({ selectedItem }) {
             return <WeWork />
         case 'Education':
             return <Education />
-        case 'Lauren Ahn':
+        case 'lauren ahn':
             return <LaurenAhn />
         case 'Skills':
             return <Skills />
