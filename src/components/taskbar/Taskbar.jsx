@@ -12,7 +12,7 @@ function Taskbar() {
                     </List.Item>
                     <List.Divider />
                     <List.Item className="" icon={<Mail />}>
-                        <a href={"mailto:willtmatteson@gmail.com"} className='task-a' rel="noreferrer" target="_blank">Email me :)</a>
+                        <a href={"mailto:laurenahn@berkeley.edu"} className='task-a' rel="noreferrer" target="_blank">Say hello!!</a>
                     </List.Item>
                 </List>
             }
